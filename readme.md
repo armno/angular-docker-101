@@ -1,6 +1,7 @@
 # angular-docker-101
 
-Learning how to dockerize an Angular app.
+Learning how to dockerize an Angular app from
+[Running Angular applications inside a Docker container - part 1](https://dpopescu.me/2017/03/13/running-angular-applications-inside-a-docker-container-part-1/)
 
 0. install docker for mac
 1. create an angular app in `client` directory
@@ -11,3 +12,4 @@ Learning how to dockerize an Angular app.
 6. create custom nginx docker image
 7. create `docker-compose.yml` in root directory
 8. `docker-compose up -d --build --remove-orphans`
+9. `docker-compose stop`
