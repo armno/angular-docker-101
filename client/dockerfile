@@ -4,11 +4,11 @@ FROM node:9.5
 # create the target directory for the app
 RUN mkdir -p /usr/src/app
 
-# set the created directory as a working directory
-WORKDIR /usr/src/app
-
 # copy package.json to the working directory
 COPY package.json /usr/src/app
+
+# set the created directory as a working directory
+WORKDIR /usr/src/app
 
 # install deps
 RUN npm install

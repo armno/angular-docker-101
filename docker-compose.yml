@@ -5,6 +5,7 @@ services:
     build: ./client
     volumes:
       - ./client:/usr/src/app
+      - /usr/src/app/node_modules
 
   nginx:
     build: ./nginx

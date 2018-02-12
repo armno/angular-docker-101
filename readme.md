@@ -13,3 +13,8 @@ Learning how to dockerize an Angular app from
 7. create `docker-compose.yml` in root directory
 8. `docker-compose up -d --build --remove-orphans`
 9. `docker-compose stop`
+
+## on another machine
+
+1. clone
+4. `$ docker-compose up -d --build --remove-orphans`
