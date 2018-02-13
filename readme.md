@@ -17,4 +17,10 @@ Learning how to dockerize an Angular app from
 ## on another machine
 
 1. clone
-4. `$ docker-compose up -d --build --remove-orphans`
+2. `$ docker-compose up -d --build --remove-orphans`
+
+## get back some spaces
+
+```sh
+$ docker image prune -a
+```
