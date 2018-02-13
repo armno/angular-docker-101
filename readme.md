@@ -19,6 +19,10 @@ Learning how to dockerize an Angular app from
 1. clone
 2. `$ docker-compose up -d --build --remove-orphans`
 
+- `-d` - detatch mode
+- `--build` - build images before starting containers
+- `--remove-orphans` - remove images that are not defined in the compose file
+
 ## get back some spaces
 
 ```sh
